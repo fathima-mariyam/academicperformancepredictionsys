@@ -1,0 +1,32 @@
+\thispagestyle {empty}
+\contentsline {section}{ACKNOWLEDGEMENT}{i}{chapter*.2}
+\contentsline {paragraph}{}{ii}{chapter*.3}
+\contentsline {section}{ABSTARCT}{ii}{chapter*.3}
+\contentsline {section}{LIST OF SYMBOLS}{iii}{chapter*.4}
+\contentsline {section}{LIST OF ABBREVIATIONS}{iv}{chapter*.5}
+\contentsline {section}{LIST OF FIGURES}{v}{chapter*.6}
+\contentsline {section}{LIST OF TABLES}{vi}{chapter*.7}
+\contentsline {chapter}{\numberline {1}\fontsize {12}{12}\selectfont INTRODUCTION}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}\fontsize {12}{12}\selectfont XML}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}\fontsize {12}{12}\selectfont SLCA}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}\fontsize {12}{12}\selectfont ORGANIZATION OF THE REPORT}{3}{section.1.3}
+\contentsline {chapter}{\numberline {2}\fontsize {12}{12}\selectfont LITERATURE SURVEY}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}\fontsize {12}{12}\selectfont STRUCTURED SEARCH RESULT DIFFERENTIATION}{4}{section.2.1}
+\contentsline {section}{\numberline {2.2}\fontsize {12}{12}\selectfont PROCESSING XML KEYWORD SEARCH BY CONSTRUCTING EFFECTIVE STRUCTURED SEARCH QUERIES}{6}{section.2.2}
+\contentsline {section}{\numberline {2.3}\fontsize {12}{12}\selectfont DivQ: DIVERSIFICATION FOR KEYWORD SEARCH OVER STRUCTURED DATABASE}{7}{section.2.3}
+\contentsline {section}{\numberline {2.4}\fontsize {12}{12}\selectfont ON QUERY RESULT DIVERSIFICATION}{9}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}GMC Method}{10}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}GNE Method}{10}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}\fontsize {12}{12}\selectfont OBSERVATION AND ANALYSIS}{11}{section.2.5}
+\contentsline {chapter}{\numberline {3}\fontsize {12}{12}\selectfont CONTEXT-BASED DIVERSIFICATION FOR KEYWORD QUERIES OVER XML DATA}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}\fontsize {12}{12}\selectfont \MakeUppercase {Feature Selection Model}}{13}{section.3.1}
+\contentsline {section}{\numberline {3.2}\fontsize {12}{12}\selectfont \MakeUppercase {Keyword Search Diversification Model}}{15}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Evaluating the Relevance}{16}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Evaluating the Novelty}{17}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}\fontsize {12}{12}\selectfont \MakeUppercase {Keyword Search Diversification Approaches}}{18}{section.3.3}
+\contentsline {section}{\numberline {3.4}\fontsize {12}{12}\selectfont \MakeUppercase {Anchor-Based Pruning Algorithm}}{18}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Advantages of Anchor-Based Pruning Algorithm}{19}{subsection.3.4.1}
+\contentsline {chapter}{\numberline {4}\fontsize {12}{12}\selectfont PRROBLEM DEFINITION}{21}{chapter.4}
+\contentsline {chapter}{\numberline {5}\fontsize {12}{12}\selectfont THE PROPOSED SYSTEM}{22}{chapter.5}
+\contentsline {chapter}{\numberline {6}\fontsize {12}{12}\selectfont CONCLUSION}{23}{chapter.6}
+\contentsline {chapter}{REFERENCES}{24}{chapter*.8}

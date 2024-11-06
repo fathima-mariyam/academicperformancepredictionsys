@@ -1,0 +1,5 @@
+\chapter*{LIST OF SYMBOLS}
+
+% please do uncomment the following to view the preview and proceed as follows
+%$(x_t,y_t,z_t)$ & \hspace{0.35in}  	& True coordinates of target node $t$ \\
+%$(\hat{x_t},\hat{y_t},\hat{z_t})$ & \hspace{0.35in}  	&  Estimated coordinates of target node $t$ \\

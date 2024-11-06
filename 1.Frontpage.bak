@@ -1,0 +1,57 @@
+%\maketitle
+\begin{titlepage}
+\thispagestyle{empty}
+         
+		\begin{center}
+        \vspace*{.2cm}
+		   \textbf{\Large {ENHANCING ADAPTIVITY IN $(t,n)$ THRESHOLD \\[10pt]VISUAL CRYPTOGRAPHY  }}
+		\end{center}
+
+		\vspace*{0.5cm}
+
+		\begin{center}
+				\textbf{ A THESIS}\\
+		\vspace*{0.2cm}
+		      	\emph{Submitted by}\\
+		 \vspace{0.5cm}
+				\textbf{ARYA RAVIKUMAR}\\
+                 \textbf{(MKANCSP002)}
+		\end{center}
+
+    \vspace{0.5cm}
+
+		\begin{center}
+					\emph{In partial fulfilment of requirements for the award of the degree of}\\
+				\vspace{0.2cm}
+		      		\textbf{MASTER OF TECHNOLOGY}\\
+				 \vspace{0.15cm}
+		       	    \emph{in}\\
+				\vspace{0.2cm}
+	  				\textbf{COMMUNICATION ENGINEERING AND SIGNAL PROCESSING}\\
+		\end{center}
+
+	
+
+		\vspace{0.1cm}
+\begin{figure}[h]
+            \centering
+            \includegraphics[width=1.5in]{Logo.png}\\
+            \text{\scriptsize(ISO 9001:2008 Certified)}
+\end{figure}
+
+%{\normalsize
+			\begin{center}
+				\begin{singlespace}
+						DEPARTMENT OF ELECTRONICS \& COMMUNICATION ENGINEERING\\[4pt]
+						 M E S COLLEGE OF ENGINEERING KUTTIPPURAM \\[2pt]
+						 Thrikkanapuram  P.O., Malappuram Dt., Kerala, India 679573 \\[6pt]
+                        ( Affiliated to UNIVERSITY OF CALICUT )\\[6pt]
+						\vspace{12pt}
+						 DECEMBER 2014
+				\end{singlespace}
+			\end{center}
+	\vspace{-.5cm}
+\pagenumbering{roman}
+\setcounter{page}{0}
+\pagebreak
+\end{titlepage}

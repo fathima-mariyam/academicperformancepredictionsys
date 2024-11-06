@@ -1,0 +1,64 @@
+\documentclass[a4paper, 12pt]{report}
+\usepackage{amsmath, amssymb}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{graphicx}
+\usepackage[left=3.75cm,right=3cm,top=2.5cm,bottom=3cm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{times}
+\usepackage{chngcntr}
+%\counterwithout{theorem}{chapter}
+\usepackage{titlesec}
+\usepackage{setspace}
+%\usepackage[square,comma,sort&compress]{natbib}
+\usepackage[caption=false]{subfig}
+\usepackage{pseudocode}
+\usepackage{algorithmic}
+%\usepackage{appendix}
+
+%\usepackage{amssymb}
+
+\date{}
+\author{Arya}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+\begin{document}
+
+\titleformat{\chapter}[display]
+{\centering \Large\bfseries}
+{{\chaptertitlename}\ \thechapter}{10pt}{\large\bfseries\MakeUppercase}
+
+\titleformat{\section}[block]{\normalsize\bfseries\MakeUppercase}{{\thesection}}{1em}{}
+
+\titleformat{\subsection}[block]{\normalsize\bfseries}{{ \thesubsection}}{1em}{}
+
+%\titleformat{\subsubsection}[block]{\footnotesize\bfseries}{{ \thesusubsection}}{1em}{}
+\setstretch{1.5}
+
+\input{front_cover.tex}
+\input{inner_cover.tex}
+\input{ack.tex}
+\pagenumbering{roman}
+\input{declaration_certificate.tex}
+\tableofcontents
+\input{abstract.tex}
+\addcontentsline{toc}{chapter}{ABSTRACT}
+\input{list_of_symbols.tex}
+\addcontentsline{toc}{section}{LIST OF SYMBOLS}
+\input{list_of_abbreviations.tex}
+\addcontentsline{toc}{section}{LIST OF ABBREVIATIONS}
+\listoffigures
+\addcontentsline{toc}{section}{LIST OF FIGURES}
+\listoftables
+\addcontentsline{toc}{section}{ LIST OF TABLES}
+
+\input{body_of_thesis.tex}
+
+
+
+
+\input{bib.tex}
+
+
+
+\end{document}

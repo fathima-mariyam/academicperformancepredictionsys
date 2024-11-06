@@ -1,0 +1,28 @@
+\addtocontents{toc}{\cftpagenumbersoff{chapter}}
+
+\titlespacing*{\chapter}{0pt}{-30pt}{10pt}
+
+\chapter*{\fontsize{16}{12}\selectfont APPENDIX}\label{publications}
+  \markboth{APPENDIX}{}
+ \addcontentsline{toc}{chapter}{APPENDIX}
+  \label{page:publications}
+
+\section*{nDCG}
+When graded relevance values are available, then normalized discounted cumulative gain $(nDCG)$ is the standard evaluation matric utilized.
+\subsection*{CG} 
+The cumulative gain, CG, is the predecessor of DCG. It considers the gain $G[k]$ at rank $k$. It does not consider the position of the result in the result set. Then CG at a particular rank position $p$ can be defined as follows. Where  $rel_{i}$ is the relevance of the result at the position $i$ in the result set.
+\begin{equation}
+CG_{p}=\sum^{p} _{i=1} rel_{i}
+\end{equation}
+
+\subsection*{DCG}
+The discounted cumulative gain takes position of a result in to consideration. If the position of the result in the result set changes the value for DCG also changes.
+\begin{equation}
+DCG_{p}=rel_{1} + \sum^{p}_{i=2} \frac{rel_{i}}{log_{2}i}
+\end{equation}
+\subsection*{nDCG}
+The normalized DCG is calculated after sorting the result set according to its relevance.
+ \begin{equation}
+ nDCG_{p}=\frac{DCG_{p}}{IDCG_{p}}
+ \end{equation}
+ Where $IDCG_{p}$ is the ideal DCG at position $p$. It can be considered as the DCG for sorted result set. So it called as ideal. The nDCG values for the queries can be used to obtain the performance of the search result ranking methods. In a perfect ranking algorithm $DCG=IDCG$, producing $nDCG=1$. All the nDCG calculation will be in the interval 0 to 1.

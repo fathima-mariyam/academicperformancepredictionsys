@@ -1,0 +1,24 @@
+\chapter{\textbf{An Efficient Structured Sparsity Model for Reverberant Speech Separation}}
+\label{intro} 
+\hspace *{0.9cm}The Iterative Hard Thresholding algorithm (IHT) is a powerful and versatile algorithm for sparse inverse problems.The Iterative Hard Thresholding algorithms is a simple yet powerful tool to reconstruct sparse signals. Not only does it give near optimal recovery guarantees under the RIP, it is also very versatile and can be easily adapted to a range of constraint sets [11] as well as to non-linear measurement systems [12]. The standard IHT implementation faces two challenges when applied to practical problems. The step size parameter has to be chosen appropriately and, as IHT is based on a gradient descend strategy, convergence is only linear. The choice of the step size can be done adaptively and as a result the use of acceleration methods to improve convergence speed. Based on recent applications on IHT it shows that a host of acceleration methods are also applicable to IHT. Importantly, it shows that these modifications not only significantly increase the observed speed of the method, but also satisfy the same strong performance guarantees enjoyed by the original IHT method.\\
+IHT is a very simple algorithm and under certain conditions, IHT can recover sparse and approximately sparse vectors with near optimal accuracy .
+\\
+There are two issues with this simple scheme
+\begin{itemize}
+\item
+The step size µ has to be chosen appropriately to avoid instability of the method.
+\item
+IHT has only a linear rate of convergence. 
+\end{itemize}
+\\
+ In normalized IHT algorithm, the $ \mu $ chooses adaptively in each iteration. This shows to guarantees the stability of normalized IHT.
+ \\
+ \subsection{AIHT}
+ Accelerated IHT has split into two categories:
+ \begin{itemize}
+ \item
+ method that only update the non-zero elements
+ \item
+ method that are allowed to update all elements
+ \end{itemize}
+ The second thresholding step in above method guarantees the new estimation of the k-sparse.
